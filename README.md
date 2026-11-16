@@ -15,13 +15,15 @@
 Hi, I'm Vlad. Security+ and CCNA certified, working toward
 my first SOC analyst role.
 
-I support 100+ workstations and courtroom systems for
-Miami-Dade County. Most of my day is finding out what broke,
-why it broke, and how to fix it. It turns out that is a big
-part of incident response too.
+I support 1,000+ endpoints and courtroom systems across six
+court locations for Miami-Dade County. Most of my day is finding
+out what broke, why it broke, and how to fix it. It turns out
+that is a big part of incident response too.
 
 Right now I'm building SOC skills hands-on: investigating attacks
 in Splunk, analyzing network traffic, and writing up what I find.
+
+Open to SOC analyst roles (L1/L2) · Miami, FL · remote/hybrid/on-site · [vlad@vguliakin.dev](mailto:vlad@vguliakin.dev)
 
 ### `$ cat certs.txt`
 
