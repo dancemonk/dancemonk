@@ -42,16 +42,13 @@ in Splunk, analyzing network traffic, and writing up what I find.
 
 ### `$ ls /dev/homelab`
 
-Hardware I use for security learning and testing, only on devices and networks I own.
+Hardware I use for security learning and testing. I test only on devices and networks I own.
 
-- **Raspberry Pi 5 (8 GB)**: the little machine that never clocks out.
-- **Flipper Zero**: hands-on practice with RFID, NFC, sub-GHz and infrared.
-  My own cards and remotes have been very patient test subjects.
-- **M5Stack Cardputer ADV**: a pocket-sized ESP32-S3 computer with a keyboard,
-  for Wi-Fi and Bluetooth testing.
-- **ThinkPad (Fedora)**: my main lab machine for Splunk, Linux and terminal work.
-- **Juniper EX2200-C**: because networking makes more sense
-  when you have actual equipment to work with.
+- **Raspberry Pi 5 (8 GB)**: lab server for my dev and test environments.
+- **ThinkPad (Fedora)**: main lab workstation. Runs Splunk for my SOC investigations.
+- **Flipper Zero**: RFID, NFC, sub-GHz and infrared testing on my own cards and remotes.
+- **M5Stack Cardputer ADV**: pocket ESP32-S3 computer for Wi-Fi and Bluetooth testing.
+- **Juniper EX2200-C**: managed switch for hands-on networking practice.
 
 <p>
   <img src="https://img.shields.io/badge/Splunk-0a0a0a?style=flat-square&logo=splunk&logoColor=white" alt="Splunk">
