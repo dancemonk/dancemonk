@@ -12,15 +12,16 @@
 
 ### `$ whoami`
 
-Hey, I'm Vlad. Security+ and CCNA certified, working toward
+Hi, I'm Vlad. Security+ and CCNA certified, working toward
 my first SOC analyst role.
 
 I support 100+ workstations and courtroom systems for
-Miami-Dade County. A lot of my day involves figuring out
-what stopped working, why it happened, and how to fix it.
+Miami-Dade County. Most of my day is finding out what broke,
+why it broke, and how to fix it. It turns out that is a big
+part of incident response too.
 
-Right now, I'm building my security skills through log analysis,
-network traffic investigations, and documenting what I find.
+Right now I'm building SOC skills hands-on: investigating attacks
+in Splunk, analyzing network traffic, and writing up what I find.
 
 ### `$ cat certs.txt`
 
@@ -30,10 +31,10 @@ network traffic investigations, and documenting what I find.
 
 ### `$ ls ~/projects`
 
-- **[siem-splunk-lab](https://github.com/dancemonk/siem-splunk-lab)**: SOC investigations in Splunk on the Boss of the SOC datasets.
-  First case: a defaced Joomla website, 32 searches across web, Sysmon and firewall logs,
-  a reverse shell the firewall let through, and a tested SPL detection rule.
-- **[malware-traffic-analysis](https://github.com/dancemonk/malware-traffic-analysis)**: network forensics writeups.
+- **[siem-splunk-lab](https://github.com/dancemonk/siem-splunk-lab)**: SOC investigations in Splunk on the Boss of the SOC (BOTS) datasets.
+  First case: a defaced Joomla website, traced across web, Sysmon and firewall logs from a
+  brute-forced admin login to a reverse shell. Timeline, verdict, ticket and a tested SPL detection rule.
+- **[malware-traffic-analysis](https://github.com/dancemonk/malware-traffic-analysis)**: network forensics write-ups.
   First case: a FormBook/XLoader infection, with 15 C2 domains (9 missed by the IDS),
   likely data exfiltration, defanged IOCs and MITRE ATT&CK mapping.
 - **[ioc-enrich](https://github.com/dancemonk/ioc-enrich)**: lookup-only IOC enrichment for SOC triage.
@@ -41,13 +42,14 @@ network traffic investigations, and documenting what I find.
 
 ### `$ ls /dev/homelab`
 
-Hardware I use for security learning and testing. I only test on devices and networks I own.
+Hardware I use for security learning and testing, only on devices and networks I own.
 
 - **Raspberry Pi 5 (8 GB)**: the little machine that never clocks out.
-- **Flipper Zero**: RFID, NFC, sub-GHz and infrared, learned by poking at my own cards and remotes.
-- **M5Stack Cardputer ADV**: a pocket ESP32-S3 computer with a real keyboard, for Wi-Fi and
-  Bluetooth testing.
-- **ThinkPad / Fedora**: Linux, terminal work, and experiments.
+- **Flipper Zero**: hands-on practice with RFID, NFC, sub-GHz and infrared.
+  My own cards and remotes have been very patient test subjects.
+- **M5Stack Cardputer ADV**: a pocket-sized ESP32-S3 computer with a keyboard,
+  for Wi-Fi and Bluetooth testing.
+- **ThinkPad (Fedora)**: my main lab machine for Splunk, Linux and terminal work.
 - **Juniper EX2200-C**: because networking makes more sense
   when you have actual equipment to work with.
 
