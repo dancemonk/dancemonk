@@ -30,6 +30,9 @@ network traffic investigations, and documenting what I find.
 
 ### `$ ls ~/projects`
 
+- **[siem-splunk-lab](https://github.com/dancemonk/siem-splunk-lab)** — SOC investigations in Splunk on the Boss of the SOC datasets.
+  First case: a defaced Joomla website, traced from the password brute force to a web shell and a reverse shell
+  across web, Sysmon and firewall logs, with a tested SPL detection rule.
 - **[malware-traffic-analysis](https://github.com/dancemonk/malware-traffic-analysis)** — network forensics writeups.
   First case: a FormBook/XLoader infection, with 15 C2 domains (9 missed by the IDS),
   likely data exfiltration, defanged IOCs and MITRE ATT&CK mapping.
@@ -44,6 +47,7 @@ network traffic investigations, and documenting what I find.
   when you have actual equipment to work with.
 
 <p>
+  <img src="https://img.shields.io/badge/Splunk-0a0a0a?style=flat-square&logo=splunk&logoColor=white" alt="Splunk">
   <img src="https://img.shields.io/badge/Linux-0a0a0a?style=flat-square&logo=linux&logoColor=white" alt="Linux">
   <img src="https://img.shields.io/badge/Fedora-0a0a0a?style=flat-square&logo=fedora&logoColor=white" alt="Fedora">
   <img src="https://img.shields.io/badge/Raspberry%20Pi-0a0a0a?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi">
