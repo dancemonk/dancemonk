@@ -41,7 +41,13 @@ network traffic investigations, and documenting what I find.
 
 ### `$ ls /dev/homelab`
 
-- **Raspberry Pi 5** — the little machine that never clocks out.
+Hardware I use for security learning and testing. I only test on devices and networks I own.
+
+- **Raspberry Pi 5 (8 GB)** — the little machine that never clocks out.
+- **Flipper Zero** — for learning how RFID, NFC, sub-GHz radio and infrared work by trying them,
+  on my own cards, remotes and devices.
+- **M5Stack Cardputer ADV** — a pocket ESP32-S3 computer with a keyboard, for learning
+  Wi-Fi and Bluetooth security on my own network.
 - **ThinkPad / Fedora** — Linux, terminal work, and experiments.
 - **Juniper EX2200-C** — because networking makes more sense
   when you have actual equipment to work with.
